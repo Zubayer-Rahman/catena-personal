@@ -1,0 +1,79 @@
+body{
+    background-color: #060B26 !important;
+}
+
+.titile, .sub-title{
+    position: relative;
+    z-index: 2;
+}
+
+.about-catena-heading{
+    color: $white;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.about-catena-description{
+    color: $white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.image-heading{
+    color: $white;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.image-description{
+    color: $white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.about-catena-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-45%, 330%);
+    z-index: 1;
+}
+
+.about-catena-image{
+    width: 350px;
+    height: 386px;
+}
+
+.about-catena-image, .about-catena-logo{
+    justify-self: flex-end;
+}
+
+.end-heading{
+    color: $white;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 50px;
+    position: relative;
+    z-index: 2;
+}
+
+.end-description{
+    color: $white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    position: relative;
+    z-index: 2;
+}

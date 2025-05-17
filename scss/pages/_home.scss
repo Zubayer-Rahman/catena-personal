@@ -1,0 +1,457 @@
+body{
+  background-color: #060B26 !important;
+}
+.title{
+  font-size: 54px;
+  line-height: 62px;
+  color: $white;
+  font-weight: bold;
+  margin: 0 0 36px;
+}
+.sub-title{
+  font-size: 22px;
+  font-weight: 500;
+  color: $white;
+  margin: 0 0 40px;
+}
+.banner{
+  color: $white;
+  background-color: #060B26;
+  h1{
+    font-size: 54px;
+    line-height: 62px;
+    font-weight: bold;
+    margin: 0 0 35px;
+  }
+  p{
+    font-size: 22px;
+    font-weight: normal;
+    line-height: 32px;
+    margin: 0 0 35px;
+  }
+  &-btn{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 180px 1fr;
+    gap: 22px;
+    h6{
+      margin: 0;
+      font-size: 26px;
+      font-weight: bold;
+      color: $white;
+      a{
+        color: $white;
+      }
+    }
+  }
+}
+.animation_content_title{
+  width: 641.57px;
+  color: #FFF;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+.animation_content_subtitle{
+  width: 668.008px;
+  color: #FFF;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; 
+}
+.background{
+  position: relative;
+  top: 10%;
+  left: 20%;
+  width: 349.787px;
+  height: 349.787px;
+  border: none;
+  border-radius: 349.787px;
+  background: linear-gradient(107deg, #009FFF 11.51%, #009DFF 22.46%, #0096FF 23.25%, #006AFF 46.73%, #8D1EFF 89.77%);
+  .inner_background{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 339.757px;
+      height: 339.757px;
+      flex-shrink: 0;
+      border-radius: 339.757px;
+      background: #0A0F2D;
+      z-index: 1;
+  }
+  .power-to-use{
+    top: 7%;
+    left: 7%;
+    position: absolute;
+    padding: 5px;
+    animation: power-to-use 20s linear infinite;
+    z-index: 2;
+  }
+  .carnival-internet{
+    position: absolute;
+    top: 40%;
+    left: -25%;
+    transform: translate(100%);
+    z-index: 2;
+  }
+
+  @keyframes power-to-use {
+    100% {
+      rotate: 0deg;
+    }
+    0% {
+      rotate: 360deg;
+    }
+  }
+}
+.operators{
+  background-color: #060B26;
+}
+.ops{
+  background-color: #1A1F37;
+  width: 100%;
+  height: 281px;
+  padding: 32px;
+  gap: 24px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  i{
+    color: $brand-color;
+    font-size: 35px;
+  }
+
+  .operator-title{
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    margin-bottom: 0;
+  }
+  .operator-details{
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    align-self: stretch;
+    margin-bottom: 0;
+
+  }
+  .icon-trends, .icon-one-touch, .icon-success, .icon-shutdown, .icon-tower, .icon-help-line, .icon-cashflow{
+    width: 48px;
+    height: 48px;
+    color: $brand-color;
+  }
+}
+.about_us{
+  background-color: #060B26;
+  .title{
+    z-index: 2;
+    position: relative;
+  }
+  .sub-title{
+    z-index: 2;
+    position: relative;
+    font-size: 22px;
+    font-weight: 400;
+    width: 650px;
+  }
+
+  .about_us_image{
+    width: 100%;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .learn_more_container{
+    z-index: 2;
+    position: relative;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    .learn_more_btn{
+      margin-bottom: 0;
+      color: $white;
+      text-decoration: underline;
+      font-weight: 700;
+    }
+  }
+}
+
+
+.about_circle_one{
+  position: absolute;
+  transform: translate(15%, 0%);
+  width: 831.346px;
+  height: 831.346px;
+  flex-shrink: 0;
+  border-radius: 831.346px;
+  opacity: 0.7;
+  background: #AB7ECF;
+  filter: blur(100px);
+  z-index: 1;
+}
+
+.about_circle_two{
+  position: absolute;
+  transform: translate(100%, 50%);
+  width: 526.434px;
+  height: 525.323px;
+  flex-shrink: 0;
+  border-radius: 526.434px;
+  opacity: 0.7;
+  background: #55A1FF;
+  filter: blur(100px);
+  z-index: 1;
+}
+.about_circle_three{
+  position: absolute;
+  transform: translate(110%, -30%);
+  width: 842.96px;
+  height: 842.96px;
+  flex-shrink: 0;
+  border-radius: 842.96px;
+  background: #9C3CE7;
+  filter: blur(100px);
+  z-index: 1;
+}
+
+.about_circle_four{
+  position: absolute;
+  transform: translate(110%, 10%);
+  width: 706.956px;
+  height: 706.956px;
+  flex-shrink: 0;
+  border-radius: 706.956px;
+  background: #006AFF;
+  filter: blur(182px);
+  z-index: 1;
+}
+
+.about-nav{
+  z-index: 2;
+  .outer-background{
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    height: 186px;
+    border: 5px solid #009DFF;
+    border-radius: 23px;
+    padding: 32px;
+    .inner-description{
+      margin-bottom: 0;
+      color: $white;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 38px;
+    }
+    .demo_btn{
+      z-index: 2;
+      position: relative;
+      width: 150px;
+      height: 50px;
+      padding: 16px 22px;
+      background: $brand-color;
+      border: none;
+      border-radius: 12px;
+      color: $white;
+      font-size: 15px;
+      font-weight: bold;
+      line-height: normal;
+      text-align: center;
+      cursor: pointer;
+    }
+  }
+}
+
+.catena_half_logo{
+  z-index: 2;
+  position: absolute;
+  transform: translate(-40%, -10%);
+  width: auto;
+  height: 609.588px;
+  flex-shrink: 0;
+}
+
+.catena_help{
+  background-color: #060B26;
+    .title{
+      position: relative;
+      z-index: 2;
+      color: $white;
+  }
+  .sub-title{
+    color: $white;
+  }
+
+  hr{
+    border-color: #393939;
+    opacity: 0.9;
+  }
+  .inner_number{
+    color: $brand-color;
+    font-size: 30px;
+  }
+  .inner_title{
+    color: $white;
+    font-size: 24px;
+  }
+  .inner_description{
+    color: $white;
+    font-size: 18px;
+  }
+
+  .catena_help_side_image{
+    width: 100%;
+    height: 599px;
+  }
+}
+
+.list{
+  li{
+    list-style:decimal;
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;  
+    margin-bottom: 24px;
+  }
+}
+
+
+.telecom-operator{
+  background-color: $off-white;
+}
+.operator-image-content{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 50px;
+  .first-image{
+    background-color: $base-color;
+    padding: 17px;
+    border-radius: 24px;
+  }
+  .right-section-image{
+    .third-image{
+      background-color: $base-color;
+      padding: 17px;
+      border-radius: 24px;
+      height: 516px;
+      align-content: center;
+    }
+  }
+}
+
+.why-catena{
+  background-color: #060B26;
+  .catena-title{
+    color: $white;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 0;
+  }
+  .catena-description{
+    color: $white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }  
+}
+
+
+.card{
+  background-color: #1A1F37;
+  padding: 32px;
+  border-radius: 16px;
+  gap: 24px;
+  display: flex;
+  flex-direction: column;
+  i{
+    color: $brand-color;
+    font-size: 30px;
+  }
+}
+
+.home-news, .home-blog{
+  background-color: #1A1F37;
+}
+
+.slider{
+  background-color: #060B26;
+}
+
+.contact{
+  background-color: #060B26;
+  .title{
+    position: relative;
+    z-index: 2;
+  }
+}
+
+.checkbox-container{
+  display: flex;
+  gap : 5px;
+  margin-top: 50px;
+  .checkbox{
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    aspect-ratio: 24.13/24.13;
+    border-radius: 4px;
+    border: 1px solid #55A1FF;
+    background: #D9D9D9;
+  }
+  label{
+    color: $white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+}
+
+.form-submit-btn{
+  width: 180px;
+  height: 50px;
+  padding: 16px 22px;
+  background: $brand-color;
+  border: none;
+  border-radius: 12px;
+  color: $white;
+}
+
+
+.input{
+  width: 100%;
+  height: 50px;
+  border-radius: 12px;
+  background-color: $gray;
+  border: 0.2px groove #313547;
+}
+
+.first-name, .last-name, .email, .number, .textarea-container{
+  label{
+    color: $white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+}
+
+.textarea-input{
+  width: 100%;
+  height: 250px;
+  border-radius: 12px;
+  background-color: $gray;
+  border: 0.2px groove #313547;
+  position: relative;
+  z-index: 2;
+}
+

@@ -1,0 +1,145 @@
+body{
+    background-color: $off-white;
+}
+
+.single_blog_page_title{
+    position: relative;
+    z-index: 100;
+    color: $white;
+    font-size: 54px;
+    margin-top: 0;
+}
+.date-calender{
+    display: flex;
+    gap: 10px;
+    color: $white;
+    align-items: center;
+    .date{
+        margin-bottom: 0;
+        color: $white;
+    }
+}
+.development{
+    .first-para, .second-para{
+        color: $white;
+        font-size: 18px;
+    }
+    
+}
+
+
+.blog_banner{
+    position: relative;
+    z-index: 100;
+    width: 100%;
+}
+
+
+.key-aspect{
+    color: $white;
+    .key_aspect_title{
+        font-size: 24px;
+    }
+    .key_aspect_list{
+        .list-title{
+            color: $white;
+            font-size: 18px;
+        }
+        .list-description{
+            color: $white;
+            font-size: 18px;
+        }
+    }
+}
+
+.role_of_gov{
+    .gov_role_title{
+        color: $white;
+        font-size: 24px;
+    }
+    .role_description{
+        color: $white;
+        font-size: 18px;
+    }
+}
+.blog_second_image{
+    width: 100%;
+}
+.ripple_effect{
+    .ripple_title{
+        color: $white;
+        font-size: 24px;
+    }
+    .ripple_description{
+        color: $white;
+        font-size: 18px;
+    }
+}
+
+.conclusion{
+    .conclusion_title{
+        color: $white;
+        font-size: 24px;
+    }
+    .conclusion_description{
+        color: $white;
+        font-size: 18px;
+    }
+}
+
+.horizontal_line{
+    border-color: #364F73;
+    opacity: 0.5;
+    margin-top: 100px;
+}
+
+.post_title{
+    color: $white;
+    font-size: 36px;
+}
+.post_content{
+    background-color: #0A0F2D;
+    padding: 32px;
+    border-radius: 16px;
+    .content_title{
+        color: $white;
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+
+    .content_description{
+        color: $white;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+
+}
+
+.date_calender{
+    position: relative;
+    z-index: 100;
+    color: $text-color;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    .date{
+        margin-bottom: 0;
+    }
+}
+
+.content-link{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    .read-more{
+        font-size: 15px;
+        font-weight: bold;
+        text-decoration: underline;
+        margin-bottom: 0;
+    }
+}
+
+
+
+
