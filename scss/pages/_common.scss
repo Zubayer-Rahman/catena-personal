@@ -49,6 +49,35 @@
     filter: blur(182px);
 }
 
+@media screen and (max-width:991px){
+    .circle-one{
+      display: none;
+    }
+    .circle-two{
+      display: none;
+    }
+    .circle-three{
+      display: none;
+    }
+    .circle-four{
+      display: none;
+    }
+
+    .about_circle_one{
+      display: none;
+    }
+    .about_circle_two{
+      display: none;
+    }
+    .about_circle_three{
+      display: none;
+    }
+    .about_circle_four{
+      display: none;
+    }
+
+}
+
 .green-logo {
   fill: #006d46;
 }
