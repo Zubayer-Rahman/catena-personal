@@ -386,6 +386,10 @@ body{
 
 .slider{
   background-color: #060B26;
+  .slider-wrapper{
+    gap: 20px;
+    align-items: center;
+  }
 }
 
 .contact{
@@ -455,3 +459,124 @@ body{
   z-index: 2;
 }
 
+
+
+@media (max-width: 991px){
+  .animation_content_title, .animation_content_subtitle{
+    width: 100%;
+  }
+
+  .background{
+    top:0%;
+    left: 10%;
+  }
+
+  .operators{
+    .container{
+      .col-4{
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .catena_half_logo{
+    width: 100%;
+    height: auto;
+    transform: translate(-5%, 25%);
+  }
+
+  .about_us{
+    .sub-title{
+      width: 100%;
+    }
+  }
+
+  .catena_help{
+    .catena_help_side_image{
+      width: 100%;
+      height: auto;
+    }
+  
+    .catena_help_side_image_two{
+      margin-bottom: 50px;
+      height: auto;
+    }
+  }
+
+  .telecom-operator{
+    .title{
+      font-size: 50px;
+    }
+  }
+  .operator-image-content{
+    .right-section-image{
+      .third-image{
+        height: auto;
+      }
+    }
+  }
+
+  .why-catena{
+    .container{
+      .col-4{
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .home-news{
+    .container{
+      .col-6{
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .about-nav{
+    .outer-background{
+      width: 100%;
+      height: auto;
+
+      .gradisnt_catena_logo{
+        width: 50%;
+        height: auto;
+        margin-bottom: 25px;
+      }
+
+      .inner-description{
+        line-height: 25px;
+        margin-bottom: 25px;
+      }
+    }
+  }
+
+  .about_us .learn_more_container{
+    margin-bottom: 25px;
+  }
+
+  .slider-wrapper{
+    align-items: center;
+    gap: 40px;
+  }
+
+  .home-blog{
+    .container{
+      .col-4{
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .contact{
+    .title{
+      margin-bottom: 0;
+    }
+    
+    .form-container{
+      .form{
+        gap: 20px;
+      }
+    }
+  }
+
+}
