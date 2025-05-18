@@ -77,3 +77,15 @@ body{
     position: relative;
     z-index: 2;
 }
+
+@media screen and (max-width: 991px) {
+    .left-side-content{
+        margin: 0 auto;
+        text-align: center;
+        .about-catena-logo{
+            top: 8px;
+            left: 85px;
+        }
+    }
+    
+}

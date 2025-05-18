@@ -2732,7 +2732,7 @@ body {
 
 @media (max-width: 991px) {
   body, html {
-    overflow: hidden;
+    overflow: none;
   }
   .animation_content_title, .animation_content_subtitle {
     width: 100%;
@@ -2889,6 +2889,11 @@ body {
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 991px) {
+  .blog-list .col-4 {
+    margin-bottom: 20px;
+  }
+}
 body {
   background-color: #060B26 !important;
 }
@@ -2969,6 +2974,24 @@ body {
   z-index: 2;
 }
 
+@media screen and (max-width: 991px) {
+  .left-side-content {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .left-side-content .about-catena-logo {
+    top: 8px;
+    left: 85px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .banner-content {
+    max-width: 100%;
+  }
+  .blog-list .container .col-6 {
+    margin-bottom: 20px;
+  }
+}
 body {
   background-color: #141932;
 }
@@ -3100,6 +3123,11 @@ body {
   margin-bottom: 0;
 }
 
+@media screen and (max-width: 991px) {
+  .related_post .col-6 {
+    margin-bottom: 20px;
+  }
+}
 .common-content p {
   margin: 0 0 20px;
 }

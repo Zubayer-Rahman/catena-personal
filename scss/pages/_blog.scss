@@ -86,4 +86,12 @@ body{
         margin-bottom: 0;
     }
 }
+
+@media screen and (max-width: 991px) {
+    .blog-list{
+        .col-4{
+            margin-bottom: 20px;
+        }
+    }
+}
     
