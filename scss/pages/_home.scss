@@ -462,13 +462,16 @@ body{
 
 
 @media (max-width: 991px){
+  body, html{
+    overflow: hidden ;
+  }
   .animation_content_title, .animation_content_subtitle{
     width: 100%;
   }
 
   .background{
     top:0%;
-    left: 10%;
+    left: 0%;
   }
 
   .operators{
