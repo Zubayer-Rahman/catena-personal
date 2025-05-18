@@ -1,68 +1,135 @@
-.circle-one{
-    width: 842px;
-    height: 842px;
-    flex-shrink: 0;
-    border: none;
-    border-radius: 50%;
-    display: inline-block;
-    background-color: #9C3CE7;
-    opacity: 0.7;
-    position: absolute;
-    transform: translate(70%, -40%);
-    filter: blur(100px);
-}
-.circle-two{
-    width: 526.43px;
-    height: 525.32px;
-    border: none;
-    border-radius: 50%;
-    display: inline-block;
-    background-color: #55A1FF;
-    opacity: 0.7;
-    position: absolute;
-    transform: translate(120%, 100%);
-    filter: blur(100px);
+.circular{
+  position: relative;
+    .circular-gradient{
+      position: relative;
+      .circle-one{
+      width: 842px;
+      height: 842px;
+      flex-shrink: 0;
+      border: none;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: #9C3CE7;
+      opacity: 0.7;
+      position: absolute;
+      transform: translate(70%, -40%);
+      filter: blur(100px);
+  }
+  .circle-two{
+      width: 526.43px;
+      height: 525.32px;
+      border: none;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: #55A1FF;
+      opacity: 0.7;
+      position: absolute;
+      transform: translate(120%, 100%);
+      filter: blur(100px);
+  }
+
+  .circle-three{
+      width: 831.35px;
+      height: 831.35px;
+      border: none;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: #AB7ECF;
+      opacity: 0.5;
+      position: absolute;
+      transform: translate(0%, 30%);
+      filter: blur(182px);
+  }
+
+  .circle-four{
+      width: 659.46px;
+      height: 659.46px;
+      border: none;
+      border-radius: 50%;
+      display: inline-block;
+      background-color: #006AFF;
+      position: absolute;
+      transform: translate(150%, 40%);
+      filter: blur(182px);
+    }
+  }
 }
 
-.circle-three{
-    width: 831.35px;
-    height: 831.35px;
-    border: none;
-    border-radius: 50%;
-    display: inline-block;
-    background-color: #AB7ECF;
-    opacity: 0.5;
-    position: absolute;
-    transform: translate(0%, 30%);
-    filter: blur(182px);
+
+.about-circular-gradient{
+  position: relative;
+    .about_circle_one{
+      position: absolute;
+      transform: translate(15%, 0%);
+      width: 831.346px;
+      height: 831.346px;
+      flex-shrink: 0;
+      border-radius: 831.346px;
+      opacity: 0.7;
+      background: #AB7ECF;
+      filter: blur(100px);
+      z-index: 1;
+    }
+
+    .about_circle_two{
+      position: absolute;
+      transform: translate(100%, 50%);
+      width: 526.434px;
+      height: 525.323px;
+      flex-shrink: 0;
+      border-radius: 526.434px;
+      opacity: 0.7;
+      background: #55A1FF;
+      filter: blur(100px);
+      z-index: 1;
+    }
+    .about_circle_three{
+      position: absolute;
+      transform: translate(110%, -30%);
+      width: 842.96px;
+      height: 842.96px;
+      flex-shrink: 0;
+      border-radius: 842.96px;
+      background: #9C3CE7;
+      filter: blur(100px);
+      z-index: 1;
+    }
+
+    .about_circle_four{
+      position: absolute;
+      transform: translate(110%, 10%);
+      width: 706.956px;
+      height: 706.956px;
+      flex-shrink: 0;
+      border-radius: 706.956px;
+      background: #006AFF;
+      filter: blur(182px);
+      z-index: 1;
+    }
 }
 
-.circle-four{
-    width: 659.46px;
-    height: 659.46px;
-    border: none;
-    border-radius: 50%;
-    display: inline-block;
-    background-color: #006AFF;
-    position: absolute;
-    transform: translate(150%, 40%);
-    filter: blur(182px);
-}
 
 @media screen and (max-width:991px){
-    .circle-one{
-      display: none;
-    }
-    .circle-two{
-      display: none;
-    }
-    .circle-three{
-      display: none;
-    }
-    .circle-four{
-      display: none;
-    }
+    
+    .circular{  
+      .circular-gradient{
+        .circle-one{
+          display: none;
+        }
+        .circle-two{
+          display: none;
+        }
+        .circle-three{
+          display: none;
+        }
+        .circle-four{
+          display: none;
+        }
+      }
+    } 
 
+
+  .about-circular-gradient{
     .about_circle_one{
       display: none;
     }
@@ -75,6 +142,7 @@
     .about_circle_four{
       display: none;
     }
+  }
 
 }
 
