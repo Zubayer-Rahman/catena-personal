@@ -107,9 +107,16 @@ body{
     }
   }
 }
+
 .operators{
   background-color: #060B26;
-}
+    .container{
+      .col-4{
+        margin-bottom: 30px;
+      }
+    }
+  }
+
 .ops{
   background-color: #1A1F37;
   width: 100%;
@@ -352,6 +359,9 @@ body{
 
 .why-catena{
   background-color: #060B26;
+  .col-4{
+    margin-bottom: 30px;
+  }
   .catena-title{
     color: $white;
     font-size: 24px;
@@ -397,6 +407,11 @@ body{
   .title{
     position: relative;
     z-index: 2;
+  }
+  .form{
+    .col-6{
+      margin-bottom: 20px;
+    }
   }
 }
 

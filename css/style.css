@@ -2393,6 +2393,9 @@ body {
 .operators {
   background-color: #060B26;
 }
+.operators .container .col-4 {
+  margin-bottom: 30px;
+}
 
 .ops {
   background-color: #1A1F37;
@@ -2628,6 +2631,9 @@ body {
 .why-catena {
   background-color: #060B26;
 }
+.why-catena .col-4 {
+  margin-bottom: 30px;
+}
 .why-catena .catena-title {
   color: #ffffff;
   font-size: 24px;
@@ -2672,6 +2678,9 @@ body {
 .contact .title {
   position: relative;
   z-index: 2;
+}
+.contact .form .col-6 {
+  margin-bottom: 20px;
 }
 
 .checkbox-container {
@@ -2894,6 +2903,10 @@ body {
     margin-bottom: 20px;
   }
 }
+.blog-list .col-4 {
+  margin-bottom: 30px;
+}
+
 body {
   background-color: #060B26 !important;
 }
@@ -2992,6 +3005,10 @@ body {
     margin-bottom: 20px;
   }
 }
+.blog-list .container .col-6 {
+  margin-bottom: 30px;
+}
+
 body {
   background-color: #141932;
 }
